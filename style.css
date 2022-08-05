@@ -50,7 +50,7 @@
     cursor: pointer;
 }
 
-.navbar .list li:first-child {
+.navbar .list li:hover{
     color: #ffff;
 }
 
@@ -67,6 +67,9 @@
     font-weight: bolder;
 }
 
+.button-small:hover{
+    background-color: #ffff;
+}
 /* -----------------------------Hero section------------------------- */
 
 
@@ -127,5 +130,8 @@
     font-size: 20px;
     cursor: pointer;
 }
-
+.bottom-container i:hover{
+    color: #000000;
+    border: 2px solid #fff;
+}
 /* --------------------------------End------------------------------- */
